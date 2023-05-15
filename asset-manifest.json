@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/typing-game-app/static/css/main.7f019df1.css",
+    "main.js": "/typing-game-app/static/js/main.c34986db.js",
+    "static/js/787.cdaa75cf.chunk.js": "/typing-game-app/static/js/787.cdaa75cf.chunk.js",
+    "static/media/visible-eye.png": "/typing-game-app/static/media/visible-eye.c19b9e3590579a3ec888.png",
+    "static/media/not-visible-eye.png": "/typing-game-app/static/media/not-visible-eye.54b3107d160578572bcc.png",
+    "index.html": "/typing-game-app/index.html",
+    "main.7f019df1.css.map": "/typing-game-app/static/css/main.7f019df1.css.map",
+    "main.c34986db.js.map": "/typing-game-app/static/js/main.c34986db.js.map",
+    "787.cdaa75cf.chunk.js.map": "/typing-game-app/static/js/787.cdaa75cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f019df1.css",
+    "static/js/main.c34986db.js"
+  ]
+}
