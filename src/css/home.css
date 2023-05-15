@@ -1,0 +1,72 @@
+.home-page-container {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+}
+
+.welcome-prompt {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.play-or-high-score {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.play-button,
+.high-score-button {
+  font-size: 24px;
+  font-weight: bold;
+  background: white;
+  height: 110px;
+  width: 150px;
+  border: 3px solid black;
+}
+
+.play-button:active,
+.high-score-button:active {
+  background: rgb(240, 240, 240);
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .welcome-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  .welcome-container {
+    width: 60%;
+  }
+}
+
+@media (min-width:301px) and (max-width: 500px) {
+  .welcome-container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 300px) {
+  .welcome-container {
+    width: 85%;
+  }
+
+  .play-button,
+  .high-score-button {
+    font-size: 24px;
+    font-weight: bold;
+    background: white;
+    height: 90px;
+    width: 110px;
+    border: 3px solid black;
+  }
+}

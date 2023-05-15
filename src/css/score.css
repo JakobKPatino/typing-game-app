@@ -1,0 +1,67 @@
+.difficulty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 30px);
+  margin-bottom: 15px;
+  background-color: white;
+  border: 3px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.difficulty-title {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.accuracy-high-score-container,
+.wpm-high-score-container,
+.points-high-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.accuracy-high-score-title,
+.wpm-high-score-title,
+.points-high-score-title {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.accuracy-high-score,
+.wpm-high-score,
+.points-high-score {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .accuracy-high-score-container,
+  .wpm-high-score-container,
+  .points-high-score-container {
+    width: 33%;
+  }
+
+  .accuracy-high-score-title,
+  .wpm-high-score-title,
+  .points-high-score-title {
+    font-size: 15px;
+  }
+
+  .accuracy-high-score,
+  .wpm-high-score,
+  .points-high-score {
+    font-size: 15px;
+  }
+}
